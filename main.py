@@ -38,9 +38,6 @@ sleep(5)
 # İki faktörlü kimlik doğrulama bekleme
 input("İki faktörlü doğrulama kodunu girin ve Enter'a basın...")
 
-# Takip isteği geri çekilecek kullanıcı adlarından oluşan array
-#usernames = ['celinegzl', 'ez0gelin', 'berfdilan']  # Buraya kullanıcı adlarını ekleyin
-
 for username in usernames:
     # Kullanıcı sayfasına git
     driver.get(f"https://www.instagram.com/{username}/")
